@@ -42,9 +42,6 @@ Load the main file and use the following query to check the current state:
 * find_food_coordinates(+State, +AgentId, -Coordinates): Finds coordinates of consumable foods for a specific agent.
 * find_nearest_agent(+State, +AgentId, -Coordinates, -NearestAgent): Finds the nearest agent to a given agent.
 * find_nearest_food(+State, +AgentId, -Coordinates, -FoodType, -Distance): Finds the nearest consumable food for an agent.
-* move_to_coordinate(+State, +AgentId, +X, +Y, -ActionList, +DepthLimit): Finds actions to move an agent to specific coordinates.
-* move_to_nearest_food(+State, +AgentId, -ActionList, +DepthLimit): Finds actions to move an agent to the nearest food.
-* consume_all(+State, +AgentId, -NumberOfMovements, -Value, -NumberOfChildren, +DepthLimit): Guides an agent to consume all reachable food items.
 
 
 **For the detailed explanation of the program please read the description.pdf**
